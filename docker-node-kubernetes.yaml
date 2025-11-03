@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: todo-site
-          image: cryptortheoneste/nodejs_app_devops
+          image: cryptortheoneste/nodejs_app_devops:latest
           imagePullPolicy: Always
 ---
 apiVersion: v1
